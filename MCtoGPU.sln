@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MCtoGPU", "MCtoGPU\MCtoGPU.vcxproj", "{6E7CFEA4-6028-442C-88D5-FCC9713CE60A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E7CFEA4-6028-442C-88D5-FCC9713CE60A}.Debug|x64.ActiveCfg = Debug|x64
+		{6E7CFEA4-6028-442C-88D5-FCC9713CE60A}.Debug|x64.Build.0 = Debug|x64
+		{6E7CFEA4-6028-442C-88D5-FCC9713CE60A}.Release|x64.ActiveCfg = Release|x64
+		{6E7CFEA4-6028-442C-88D5-FCC9713CE60A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {167290AD-1FE9-4483-A9BD-2D8028EA9327}
+	EndGlobalSection
+EndGlobal
