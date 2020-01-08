@@ -1,7 +1,7 @@
 #pragma once
 /*====================================================*/
-/* Symulacja Monte Carlo spinów 1D,2D,3D Isinga       */
-/* Sieæ SC                                            */
+/* Symulacja Monte Carlo spinÃ³w 1D,2D,3D Isinga       */
+/* SieÃ¦ SC                                            */
 /* Autor: Aleksander Dawid                            */
 /*====================================================*/
 #include <algorithm>
@@ -40,7 +40,8 @@ int IsingModel::GPU(int tN) {
 	cudaEvent_t start, stop;
 	
 	
-	BlockPerGrid = (N / 2) / ThreadPerBlock + 1;
+	BlockPerGrid = (N / 2) / ThreadPerBlock;
+	if ((Nx / 8) % 2 != 0) { BlockPerGrid++; }
 	cout << "SC: " << "(" << Nx << "," << Ny << "," << Nz << ")" << endl;
 	cout << "Time: " << tN << endl;
 	cout << "N/2: " << N/2 << endl;
